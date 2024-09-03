@@ -1,0 +1,683 @@
+@media screen and (max-width:390px)
+{
+    .phone-tab-nav
+    {
+      z-index: 100000000000;
+    }
+    .phone-tab-nav .row > div:first-child img
+    {
+      width: 75%;
+    }
+    .phone-tab-nav .btn-close
+    {
+      height: 25px;
+      width: 25px;
+      opacity: 1;
+      filter: invert(1);
+    }
+    .phone-tab-nav .btn
+    {
+      width: 30px;
+      height: 30px;
+      background-color: var(--primary-color);
+    }
+    .phone-tab-nav .btn:focus
+    {
+      box-shadow: none;
+    }
+    .phone-tab-nav .row > div:nth-child(2) i
+    {
+      font-size: 20px;
+    }
+    .offcanvas-body
+    {
+      background-color: var(--matches-card-color);
+      border-right: 2px solid var(--primary-color);
+    }
+    .phone-tab-nav .accordion-body ul
+    {
+      padding: 0px;
+    }
+    .phone-tab-nav .accordion-body ul li
+    {
+      list-style: none;
+    }
+    .phone-tab-nav .accordion-body ul li a
+    {
+      text-decoration: none;
+    }
+    .phone-tab-nav .accordion-item
+    {
+      border: 2px solid var(--primary-color);
+    }
+    .phone-tab-nav .accordion-button,
+    .phone-nav-landing p
+    {
+      font-size: 16px;
+    }
+    .phone-tab-nav .accordion-button:focus
+    {
+      box-shadow: none;
+    }
+    .phone-tab-nav .accordion-button::after
+    {
+      filter: brightness(0) invert(1);
+    }
+    .phone-nav-landing
+    {
+      border: 2px solid var(--primary-color);
+      border-radius: 0px 0px 5px 5px;
+    }
+    .phone-tab-nav .accordion-item:last-of-type
+    {
+      border-radius: 0px;
+    }
+    .phone-tab-nav .offcanvas-start
+    {
+      background: var(--primary-color);
+    }
+
+    .banner
+    {
+        height: 450px;
+    }
+    .banner-content-details
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      left: 0;
+      padding: 0px 15px;
+    }
+    .banner-content-details > img:first-child
+    {
+      margin-bottom: -1rem;
+    }
+    .banner-content-details > img:nth-child(3)
+    {
+      margin-bottom: 0;
+    }
+    .banner-content-details > img:last-child
+    {
+      margin-top: 0rem;
+    }
+    .banner
+    {
+      overflow: hidden;
+    }
+
+    .game-champs
+    {
+      overflow: hidden;
+    }
+    .game-champs-left > p:first-child
+    {
+      letter-spacing: 0;
+      font-size: 11px;
+    }
+    .game-champs-left > p:nth-child(3)
+    {
+      width: 100%;
+    }
+    .game-champs-right img
+    {
+      width: 50%;
+    }
+    .game-champs-right > img:nth-child(4)
+    {
+      margin-top: -5.5rem;
+      margin-left: 4rem;
+    }
+
+    .pop-league
+    {
+        overflow: hidden;
+    }
+
+    .tournaments
+    {
+        overflow: hidden;
+    }
+
+    .matches .nav-tabs button
+    {
+        font-size: 15px;
+    }
+    .matches
+    {
+        overflow: hidden;
+    }
+    .matches-effect
+    {
+        color: #ffffff;
+        transition: all 200ms ease;
+    }
+
+    .stream
+    {
+        overflow: hidden;
+    }
+
+    .team
+    {
+      overflow: hidden;
+    }
+
+    .capersnyde-heading img
+    {
+        width: 90%;
+        top: 0;
+        z-index: -1;
+    }
+    .capersnyde .nav-tabs button
+    {
+        font-size: 15px;
+    }
+    .capersnyde .accordion-item:first-of-type .accordion-button.collapsed
+    {
+        clip-path: polygon(0% 0%, 94% 0%, 100% 40%, 100% 100%, 0% 100%);
+    }
+    .capersnyde .accordion-item:last-of-type .accordion-button.collapsed
+    {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 6% 100%, 0% 60%);
+    }
+    .capersnyde .accordion-item:last-of-type .accordion-button.collapsed::before
+    {
+      left: 1px;
+      bottom: -9px;
+    }
+    .capersnyde .accordion-item:first-of-type .accordion-button.collapsed::before
+    {
+      right: 2px;
+      top: -9px;
+    }
+
+    .boost
+    {
+        overflow: hidden;
+    }
+
+    .booster
+    {
+        overflow: hidden;
+    }
+
+    .overzeen-banner
+    {
+        overflow: hidden;
+    }
+    .overzeen-banner-content
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 150%;
+    }
+    .overzeen-banner .container > img:first-child
+    {
+        width: 60%;
+    }
+    .overzeen-banner-content > img:nth-child(1),
+    .overzeen-banner-content > img:nth-child(2),
+    .overzeen-banner-content > img:nth-child(3),
+    .overzeen-banner-content > img:nth-child(4)
+    {
+        width: 35%;
+    }
+    .overzeen-banner-content > img:nth-child(2)
+    {
+        margin-top: -10px;
+        margin-bottom: -5px;
+    }
+    .overzeen-banner-content > img:nth-child(4)
+    {
+        margin-top: 0px;
+    }
+    .overzeen-banner-content
+    {
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 10;
+    }
+    .overzeen-arms-1,
+    .overzeen-arms-2
+    {
+        width: 35%;
+        top: 55%;
+    }
+    .overzeen-arms-2
+    {
+        left: 5%;
+    }
+    .overzeen-arms-1
+    {
+        right: 5%;
+    }
+    .overzeen-smoke-1,
+    .overzeen-smoke-2
+    {
+        width: 35%;
+        top: 45%;
+    }
+    .overzeen-banner 
+    {
+        height: 350px;
+    }
+
+    .overzeen
+    {
+        overflow: hidden;
+    }
+    .overzeen .card
+    {
+        height: 390px;
+    }
+    .overzeen-pic-card img
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .merch
+    {
+      overflow: hidden;
+    }
+    .merch-heading
+    {
+      margin-bottom: -25px;
+    }
+    .gear-heading
+    {
+      margin-bottom: -25px;
+    }
+
+    footer .row > div:first-child img
+    {
+        width: 65%;
+    }
+}
+
+
+@media screen and (max-width:285px)
+{
+    .phone-tab-nav .btn
+    {
+      width: 14px;
+      height: 26px;
+    }
+    .phone-tab-nav .row > div:nth-child(2) i
+    {
+      font-size: 15px;
+    }
+    .banner
+    {
+        height: 350px;
+    }
+    .pop-league i
+    {
+        font-size: 10px;
+    }
+    .pop-league .card-body > div:nth-child(3) div
+    {
+        font-size: 15px;
+    }
+
+    .tournaments i
+    {
+        font-size: 9px;
+    }
+    .tournaments-card-content > div:nth-child(3) div
+    {
+        font-size: 9px;
+    }
+
+    .matches-effect
+    {
+        font-size: 20px;
+    }
+    .capersnyde .accordion-item:last-of-type .accordion-button.collapsed
+    {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 12% 100%, 0% 58%);
+    }
+    .capersnyde .accordion-item:last-of-type .accordion-button.collapsed::before
+    {
+        bottom: -13px;
+        left: 4px;
+    }
+    .capersnyde .accordion-item:first-of-type .accordion-button.collapsed
+    {
+        clip-path: polygon(0% 0%, 87% 0%, 100% 43%, 100% 100%, 0% 100%);
+    }
+    .capersnyde .accordion-item:first-of-type .accordion-button.collapsed::before
+    {
+        top: -12px;
+        right: 5px;
+    }
+    .stats p
+    {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:991.9px)
+{
+    .phone-tab-nav .row > div:first-child img
+    {
+      width: 50%;
+    }
+    .phone-tab-nav .btn
+    {
+      width: 50px;
+      height: 50px;
+      background-color: var(--primary-color);
+    }
+    .phone-tab-nav .btn:focus
+    {
+      box-shadow: none;
+    }
+    .phone-tab-nav .row > div:nth-child(2) i
+    {
+      font-size: 40px;
+    }
+    .offcanvas-body
+    {
+      background-color: var(--matches-card-color);
+      border-right: 2px solid var(--primary-color);
+    }
+    .phone-tab-nav .accordion-body ul
+    {
+      padding: 0px;
+    }
+    .phone-tab-nav .accordion-body ul li
+    {
+      list-style: none;
+    }
+    .phone-tab-nav .accordion-body ul li a
+    {
+      text-decoration: none;
+    }
+    .phone-tab-nav .accordion-item
+    {
+      border: 2px solid var(--primary-color);
+    }
+    .phone-tab-nav .accordion-button,.phone-nav-landing
+    {
+      font-size: 18px;
+    }
+    .phone-tab-nav .accordion-button:focus
+    {
+      box-shadow: none;
+    }
+    .phone-tab-nav .accordion-button::after
+    {
+      filter: brightness(0) invert(1);
+    }
+    .phone-nav-landing
+    {
+      border: 2px solid var(--primary-color);
+      border-radius: 0px 0px 5px 5px;
+    }
+    .phone-tab-nav .accordion-item:last-of-type
+    {
+      border-radius: 0px;
+    }
+    .phone-tab-nav .offcanvas-start
+    {
+      background: var(--primary-color);
+    }
+    .phone-tab-nav .btn-close
+    {
+      height: 25px;
+      width: 25px;
+      opacity: 1;
+      filter: invert(1);
+    }
+
+    .banner-content-details > img:first-child
+    {
+      left: 0;
+    }
+    .banner
+    {
+      height: 900px;
+      overflow: hidden;
+    }
+    .banner-content-details > img:first-child
+    {
+      margin-bottom: -3rem;
+    }
+    .banner-content-details > img:nth-child(3)
+    {
+      margin-bottom: -1rem;
+    }
+    .banner-content-details > img:last-child
+    {
+      margin-top: -3rem;
+    }
+
+    .game-champs-left > p:first-child
+    {
+      top: 0;
+      letter-spacing: 1px;
+    }
+    .game-champs-left > p:nth-child(2)
+    {
+      width: 50%;
+    }
+    .game-champs
+    {
+      overflow: hidden;
+    }
+    .game-champs-left > p:nth-child(3)
+    {
+      width: 500px;
+    }
+    .game-champs-right > img:nth-child(4)
+    {
+      margin-top: -0.5rem;
+    }
+
+    .pop-league
+    {
+      overflow: hidden;
+    }
+
+    .tournaments
+    {
+      overflow: hidden;
+    }
+
+    .matches .nav-tabs
+    {
+      padding: 0px;
+    }
+    .matches-heading {
+      width: 100%;
+    }
+    .matches-effect
+    {
+        color: #ffffff;
+        transition: all 200ms ease;
+    }
+
+    .stream
+    {
+      overflow: hidden;
+    }
+
+    .team
+    {
+      overflow: hidden;
+    }
+
+    .capersnyde-heading > p:first-child
+    {
+      font-size: 55px;
+    }
+    .capersnyde-scroll
+    {
+      padding: 0px;
+      width: 104.5%;
+      height: 456px;
+    }
+    .capersnyde-heading img
+    {
+      width: 100%;
+      top: 0;
+      z-index: -1;
+    }
+    .capersnyde-heading > p:nth-child(2)
+    {
+      letter-spacing: 1px;
+    }
+    .capersnyde .accordion-item:first-of-type .accordion-button.collapsed
+    {
+      clip-path: polygon(0% 0%, 94% 0%, 100% 40%, 100% 100%, 0% 100%);
+    }
+    .capersnyde .accordion-item:last-of-type .accordion-button.collapsed
+    {
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 6% 100%, 0% 60%);
+    }
+    .capersnyde .accordion-item:last-of-type .accordion-button.collapsed::before
+    {
+      left: 1px;
+      bottom: -9px;
+    }
+    .capersnyde .accordion-item:first-of-type .accordion-button.collapsed::before
+    {
+      right: 2px;
+      top: -9px;
+    }
+
+    .overzeen-banner-content
+    {
+      width: 100%;
+    }
+    .overzeen-banner-content > img:first-child,
+    .overzeen-banner-content > img:nth-child(2),
+    .overzeen-banner-content > img:nth-child(3)
+    {
+      width: 80%;
+    }
+    .overzeen-banner-content > img:nth-child(2) {
+      margin-top: -53px;
+      margin-bottom: -30px;
+    }
+    .overzeen-smoke-1,
+    .overzeen-smoke-2
+    {
+      width: 50%;
+      top: 100px;
+    }
+    .overzeen-banner-content > img:nth-child(2)
+    {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .overzeen-banner-content > img:nth-child(4) {
+      margin-top: -60px;
+    }
+    .overzeen-banner-content
+    {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 10;
+    }
+    .overzeen-arms-1,
+    .overzeen-arms-2
+    {
+      top: 50%;
+    }
+    .overzeen-arms-2
+    {
+      left: 10%;
+    }
+    .overzeen-arms-1
+    {
+      right: 10%;
+    }
+    .overzeen-banner 
+    {
+        height: 620px;
+    }
+
+    .overzeen .card
+    {
+        height: 398px;
+        overflow: hidden;
+    }
+    .overzeen
+    {
+        overflow: hidden;
+    }
+    .overzeen .card-body
+    {
+        width: 431.75px;
+    }
+
+    .merch
+    {
+      overflow: hidden;
+    }
+    .merch-heading
+    {
+      margin-bottom: -50px;
+    }
+    .gear-heading
+    {
+      margin-bottom: -50px;
+    }
+
+    .counter .card > p:first-child
+    {
+      font-size: 50px;
+    }
+    .counter
+    {
+      overflow: hidden;
+    }
+
+    .why-go-with-us
+    {
+      overflow: hidden;
+    }
+
+    .contact
+    {
+      overflow: hidden;
+    }
+    .contact .btn::before
+    {
+      transform: skewX(60deg);
+    }
+    .contact .btn::after
+    {
+      transform: skewX(60deg) translateX(-100%);
+    }
+    .contact .btn:hover::after
+    {
+      transform: skewX(60deg) translateX(0px);
+    }
+
+    .stream-time-main-area .card > div:nth-child(2) p
+    {
+      font-size: 30px;
+    }
+    .stream-time-main-area .card > div:nth-child(1) p
+    {
+      font-size: 15px;
+    }
+    .stream-time-main-area .card > div:nth-child(3) p
+    {
+      font-size: 15px;
+    }
+
+    footer .row > div:first-child img
+    {
+        width: 30%;
+    }
+}
